@@ -1,0 +1,352 @@
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin-inline: auto;
+}
+
+.main-section,
+.services-section {
+  display: inline-block;
+}
+
+.main-section {
+  color: #fff;
+  background-color: #005ad5;
+}
+
+.leading {
+  padding: 48px 98px 113px 135px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 227px;
+}
+
+.header__logo {
+  font-family: "Black Ops One";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+.header__menu {
+  display: flex;
+  gap: 98px;
+}
+
+.header__menu li a {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.brand {
+  display: flex;
+  gap: 100px;
+}
+
+brend__text {
+  max-width: 495px;
+}
+
+.brend__text__title {
+  font-weight: 600;
+  font-size: 43.4211px;
+  line-height: 65px;
+  margin-bottom: 38px;
+}
+
+.brend__text__desc {
+  font-weight: 400;
+  font-size: 14.5895px;
+  line-height: 22px;
+  margin-bottom: 50px;
+}
+
+.brend__text__button {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #005ad5;
+  display: inline-block;
+  padding: 16px 32px;
+  text-align: center;
+  min-width: 124px;
+  background: #fff;
+  border-radius: 10px;
+  margin-left: 15px;
+  transition: 0.05s all ease-in-out;
+}
+
+.secondary {
+  background: linear-gradient(to top left, #f4f6f7 50%, #005ad5 50%);
+  height: 259px;
+}
+
+.services-section {
+  background: #f4f6f7;
+  padding: 125px 120px;
+}
+
+.epigraph {
+  text-align: center;
+  margin-bottom: 62px;
+}
+
+.epigraph__title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  color: #121212;
+  margin-bottom: 10px;
+}
+
+.epigraph__desc {
+  display: inline-block;
+  max-width: 638px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #6c6c6c;
+}
+
+.item {
+  text-align: center;
+  max-width: 289px;
+  background: #fff;
+  padding: 40px 23px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.services-section__item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 166px;
+}
+
+.item__title {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #121212;
+  margin-top: 24px;
+}
+
+.item__desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #121212;
+  margin: 16px 0 32px 0;
+}
+
+.item__button {
+  display: inline-block;
+  border: 2px solid #005ad5;
+  border-radius: 10px;
+  padding: 16px 0 13px 0;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #005ad5;
+  min-width: 133px;
+  transition: 0.1s all ease-in-out;
+}
+
+.info-section {
+  padding: 216px 105px 228px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 264px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top__text,
+.bottom__text {
+  max-width: 480px;
+}
+
+.text__inscription {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.text__title {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 51px;
+  color: #121212;
+  margin-bottom: 24px;
+}
+
+.text__desc {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #6c6c6c;
+}
+
+.contact-section {
+  text-align: center;
+  padding: 134px 255px 173px 255px;
+  background: #f4f6f7;
+}
+
+.contact__text__title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  color: #000000;
+}
+
+.contact__text__desc {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #6c6c6c;
+  margin-bottom: 100px;
+}
+
+.contact__name-email {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 14px;
+}
+
+.field {
+  flex-basis: 100%;
+}
+
+.field__input {
+  padding: 20px 0px 20px 50px;
+  border: 6px solid #005ad5;
+  outline: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  background: #f4f6f7;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.subject__input {
+  padding: 20px 0px 20px 50px;
+  border: 6px solid #005ad5;
+  outline: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  background: #f4f6f7;
+  width: 100%;
+  margin-bottom: 14px;
+  box-sizing: border-box;
+}
+
+.more__input {
+  padding: 40px 0px 323px 50px;
+  border: 6px solid #005ad5;
+  outline: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  background: #f4f6f7;
+  width: 100%;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.contact__button button {
+  padding: 30px 115px 25px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  border: none;
+  color: #ffffff;
+  background: #005ad5;
+  cursor: pointer;
+  transition: 0.1s all ease-in-out;
+}
+
+
+
+
+.header__menu li a:after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: #c0d6dd;
+  transition: width 0.1s ease-in-out;
+}
+
+.header__menu li a:hover:after,
+.header__menu li a:focus:after {
+  width: 100%;
+}
+
+.header__menu li a:hover {
+  color: #c0d6dd;
+}
+
+
+.brend__text__button:hover {
+  color: #fff;
+  background: #005ad5;
+  border: 1px solid #fff;
+}
+
+
+.item__button:hover {
+  color: #fff;
+  background: #005ad5;
+
+}
+
+
+.contact__button button:hover {
+  color: #005ad5;
+  background: #a6b3f0;
+}
+
+
+.field__input:focus, .subject__input:focus, .more__input:focus {
+  border: 6px solid #014cb5;
+  background: #e3e5e7;
+}
